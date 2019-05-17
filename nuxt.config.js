@@ -5,4 +5,10 @@ export default {
   router: {
     middleware: 'routeMiddleware'
   },
+  serverMiddleware: [
+    (req, res, next) => {
+      console.log("---Server Middleware");
+      next();
+    }
+  ]
 }
