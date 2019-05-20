@@ -10,6 +10,9 @@
 
 <script>
 export default {
-  middleware: 'pageMiddleware'
+  middleware: 'pageMiddleware',
+  fetch() {
+    console.log("fetching in index");
+  },
 }
 </script>

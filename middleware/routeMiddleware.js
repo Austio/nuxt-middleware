@@ -5,7 +5,11 @@ export default function ({ isClient, route }) {
     console.log('routerMiddleware Promise')
     setTimeout(() => {
       console.log('routerMiddleware Promise complete')
-      resolve();
+      if (process.client) {
+        reject("I AM REJECTING")
+      } else {
+        resolve();
+      }
     }, 5000)
   })
 }
