@@ -1,0 +1,2 @@
+exports.ids=[2],exports.modules={50:function(t,e,r){"use strict";r.r(e);var n=r(1),component=Object(n.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("div",[this._ssrNode("<p>Other Page</p> "),e("NuxtLink",{attrs:{to:"/"}},[this._v("\n    Back to the home page\n  ")])],2)},[],!1,null,null,"8ff31150");e.default=component.exports}};
+//# sourceMappingURL=8d5f2e409def0b9a31f8.js.map

@@ -1,0 +1,2 @@
+exports.ids=[1],exports.modules={49:function(e,t,r){"use strict";r.r(t);var n={middleware:"pageMiddleware",fetch(){console.log("fetching in index")}},l=r(1),component=Object(l.a)(n,function(){var e=this.$createElement,t=this._self._c||e;return t("div",[this._ssrNode("<p>Home Page</p> "),t("NuxtLink",{attrs:{to:"/Other"}},[this._v("\n    Other page\n  ")])],2)},[],!1,null,null,"083f1fcc");t.default=component.exports}};
+//# sourceMappingURL=ad77e4534ac9e1c6ecbd.js.map
